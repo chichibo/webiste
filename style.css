@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f2f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Nav bar */
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav-links li a:hover {
+  color: #f5efef;
+  
+}
+
+.nav-links li a:hover {
+  background-color: #4e4c4c;
+  transition: ease-in-out 0.2s;
+}
+
+
+.container{
+  position: relative;
+  height: 150px;
+  max-width: 90%;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+.container .hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.hero .hero-left{
+  margin: 10px;
+}
+.hero .hero-left img{
+  border-radius: 10px;
+}
+
+.hero-text span {
+  font-size: 2em;
+  font-weight: bold;
+  display: block;
+  color: #111;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  padding: 10px 25px;
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.hero .hero-right{
+  margin: 40px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.company-cards {
+  display: flex;
+  grid-template-columns: repeat(1,2fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  background: white;
+  
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.about, .contact {
+  background-color: #fefefe;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.contact {
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+}
